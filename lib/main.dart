@@ -10,7 +10,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    //TODO: Implementar lógica en BBDD para optimizar API. 
+    
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: "/home",
