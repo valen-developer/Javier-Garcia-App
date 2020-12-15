@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'src/pages/playlist_page.dart';
-import 'src/pages/videos_page.dart';
+import 'src/PlayList/presentation/ui/playlist_page.dart';
+import 'src/Video/presentation/ui/videos_page.dart';
 
 void main() {
   runApp(MyApp());

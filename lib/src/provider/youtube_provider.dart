@@ -4,8 +4,8 @@ import 'dart:io';
 
 import 'package:path_provider/path_provider.dart';
 
-import '../models/playlist_model.dart';
-import '../models/videos_model.dart';
+import '../PlayList/domain/model/playlist_model.dart';
+import '../Video/domain/model/videos_model.dart';
 
 //UCYOv9HwOFwK0lY2dUQlZSpg -- channel ID javier garcia
 

@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:prueba_youtube/src/shared/presentation/widgets/data_error_widget.dart';
+import 'package:prueba_youtube/src/shared/presentation/widgets/progress_no_data_widget.dart';
 
-import '../models/playlist_model.dart';
-import '../provider/youtube_provider.dart';
+import '../../domain/model/playlist_model.dart';
+import '../../../provider/youtube_provider.dart';
 
 import 'package:circular_profile_avatar/circular_profile_avatar.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:url_launcher/url_launcher.dart';
-
-import '../widgets/data_error_widget.dart';
-import '../widgets/progress_no_data_widget.dart';
 
 class PlayListPage extends StatefulWidget {
   @override
@@ -237,6 +236,3 @@ class _PlayListPageState extends State<PlayListPage> {
     );
   }
 }
-
-
-

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_youtube/flutter_youtube.dart';
+import 'package:prueba_youtube/src/Video/domain/model/videos_model.dart';
+import 'package:prueba_youtube/src/shared/presentation/widgets/data_error_widget.dart';
+import 'package:prueba_youtube/src/shared/presentation/widgets/progress_no_data_widget.dart';
 
-import '../models/videos_model.dart';
-import '../provider/youtube_provider.dart';
-import '../widgets/data_error_widget.dart';
-import '../widgets/progress_no_data_widget.dart';
+import '../../../provider/youtube_provider.dart';
+
 
 class VideosPage extends StatefulWidget {
   @override
